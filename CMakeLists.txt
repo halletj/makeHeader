@@ -1,0 +1,2 @@
+add_executable(makeHeader makeHeader.cpp)
+target_compile_features(makeHeader PRIVATE cxx_std_17)
